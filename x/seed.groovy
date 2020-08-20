@@ -1,4 +1,5 @@
 base_path = "finaltask"
+folder("${base_path}")
 job_path = "${base_path}/x"
 
 pipelineJob(job_path) {
