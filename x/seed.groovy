@@ -8,7 +8,7 @@ pipelineJob(job_path) {
     }
     definition {
         cps {
-            script(readFileFromWorkspace("${job_path}/jenkinsfile.groovy"))
+            script(readFileFromWorkspace("${job_path}/Jenkinsfile"))
             sandbox(false)
         }
     }
